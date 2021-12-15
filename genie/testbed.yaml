@@ -1,0 +1,15 @@
+devices:
+  iosxr1:
+    connections:
+      cli:
+        ip: sandbox-iosxr-1.cisco.com
+        port: 22
+        protocol: ssh
+    credentials:
+      default:
+        password: C1sco12345
+        username: 'admin'
+      enable:
+        password: C1sco12345
+    os: iosxr
+    type: iosxr
