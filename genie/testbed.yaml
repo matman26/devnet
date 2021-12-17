@@ -13,3 +13,17 @@ devices:
         password: C1sco12345
     os: iosxr
     type: iosxr
+  csr1000v-1:
+    connections:
+      cli:
+        ip: sandbox-iosxe-latest-1.cisco.com
+        port: 22
+        protocol: ssh
+    credentials:
+      default:
+        password: C1sco12345
+        username: developer
+      enable:
+        password: C1sco12345
+    os: iosxe
+    type: iosxe
