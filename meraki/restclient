@@ -1,0 +1,15 @@
+# GET list of all organizations
+GET https://api.meraki.com/api/v0/organizations
+X-Cisco-Meraki-API-KEY: 6bec40cf957de430a6f1f2baa056b99a4fac9ea0
+
+# GET specific org ID
+GET https://api.meraki.com/api/v0/organizations/681155
+X-Cisco-Meraki-API-Key: 6bec40cf957de430a6f1f2baa056b99a4fac9ea0
+
+# GET Networks from org
+GET https://api.meraki.com/api/v0/organizations/681155/networks
+X-Cisco-Meraki-API-Key: 6bec40cf957de430a6f1f2baa056b99a4fac9ea0
+
+# GET Network Devices from Network
+GET https://api.meraki.com/api/v0/organizations/L_783626335162466515/devices
+X-Cisco-Meraki-API-Key: 6bec40cf957de430a6f1f2baa056b99a4fac9ea0

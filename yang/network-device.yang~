@@ -1,0 +1,20 @@
+module network-device {
+  description "Testing stuff for DEVASC";
+
+  revision "2021-21-12";
+
+  import ietf-interfaces { prefix inet-if; }
+  import ietf-types      { prefix ietf;    }
+
+  container device {
+
+    leaf hostname {
+      type string;
+    }
+
+    leaf ipaddress {
+      type inet:ipv4-address;
+    }
+
+  }
+}

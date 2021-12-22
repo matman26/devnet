@@ -1,0 +1,22 @@
+module network-device {
+  namespace "http://devnet.com/devasc-network-device";
+  prefix "dvc-dev";
+  description "Testing stuff for DEVASC";
+
+  revision "2021-21-12";
+
+  import ietf-interfaces { prefix inet-if; }
+  import ietf-inet-types { prefix inet;    }
+
+  container device {
+
+    leaf hostname {
+      type string;
+    }
+
+    leaf ipaddress {
+      type inet:ipv4-address;
+    }
+
+  }
+}
