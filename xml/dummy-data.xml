@@ -1,0 +1,25 @@
+<books>
+    <!--  Payload from https://www.baeldung.com/linux/evaluate-xpath -->
+    <book id="1" category="linux">
+        <title lang="en">Linux Device Drivers</title>
+        <year>2003</year>
+        <author>Jonathan Corbet</author>
+        <author>Alessandro Rubini</author>
+    </book>
+    <book id="2" category="linux">
+        <title lang="en">Understanding the Linux Kernel</title>
+        <year>2005</year>
+        <author>Daniel P. Bovet</author>
+        <author>Marco Cesati</author>
+    </book>
+    <book id="3" category="novel">
+        <title lang="en">A Game of Thrones</title>
+        <year>2013</year>
+        <author>George R. R. Martin</author>
+    </book>
+    <book id="4" category="novel">
+        <title lang="fr">The Little Prince</title>
+        <year>1990</year>
+        <author>Antoine de Saint-Exupéry</author>
+    </book>
+</books>
