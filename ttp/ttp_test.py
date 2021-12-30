@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 from ttp import ttp
 from pprint import pprint
 

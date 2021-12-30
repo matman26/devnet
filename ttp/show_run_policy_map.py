@@ -17,7 +17,6 @@ policy-map POLICY3
    service-policy BASE
 """
 
-#abc = "{{ ignore("\s+") }}Matched{{ ignore("\s+") }}+:{{ignore("\s+")}}{{ matched | WORD }}{{ rate | PHRASE }}"
 ttp_template = """
 <group name="{{ map_name }}">
 policy-map {{ map_name }}

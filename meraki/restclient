@@ -1,3 +1,4 @@
+# RESTClient is an Emacs package for interacting with REST APIs from a text file
 # GET list of all organizations
 GET https://api.meraki.com/api/v0/organizations
 X-Cisco-Meraki-API-KEY: 6bec40cf957de430a6f1f2baa056b99a4fac9ea0

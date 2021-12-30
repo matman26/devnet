@@ -65,7 +65,6 @@ echo "-- Get books published after 2004. Notice we don't use the @
 xpath='/books/book[year>2004]'
 output=$(xmllint --xpath $xpath  dummy-data.xml)
 echo -e "xpath = $xpath \n$output"
-
 echo "------------------------------------------------------------"
 echo
 echo "-- Get books titles from books published by George. Notice text()
