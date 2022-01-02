@@ -40,7 +40,6 @@ payload = """
 
 headers = {
     'Content-Type': 'text/xml; charset=utf-8'
-    
 }
 
 url = 'https://10.10.20.1:8443/axl/'
